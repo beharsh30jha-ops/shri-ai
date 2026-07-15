@@ -87,3 +87,34 @@ document.addEventListener("mousemove",e=>{
 document.body.style.backgroundPosition=`${e.clientX/40}px ${e.clientY/40}px`;
 
 });
+// 🌸 Floating Lotus Generator
+
+const lotus=["🪷","🌸","✨"];
+
+for(let i=0;i<25;i++){
+
+let flower=document.createElement("div");
+
+flower.className="lotus";
+
+flower.innerHTML=
+
+lotus[Math.floor(Math.random()*lotus.length)];
+
+flower.style.left=Math.random()*100+"vw";
+
+flower.style.animationDuration=
+
+10+Math.random()*12+"s";
+
+flower.style.fontSize=
+
+20+Math.random()*30+"px";
+
+flower.style.animationDelay=
+
+Math.random()*10+"s";
+
+document.body.appendChild(flower);
+
+}
