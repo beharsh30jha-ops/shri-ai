@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shri AI Chat</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#1a0933;
+color:white;
+height:100vh;
+display:flex;
+}
+
+.sidebar{
+width:260px;
+background:#2b0f4b;
+padding:20px;
+display:flex;
+flex-direction:column;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+margin-bottom:25px;
+color:#ffd166;
+}
+
+.newchat{
+padding:14px;
+border:none;
+border-radius:12px;
+background:#7c3aed;
+color:white;
+font-size:16px;
+cursor:pointer;
+margin-bottom:25px;
+}
+
+.history{
+flex:1;
+overflow:auto;
+}
+
+.chat-item{
+padding:12px;
+border-radius:10px;
+margin-bottom:10px;
+background:rgba(255,255,255,.08);
+}
+
+.main{
+flex:1;
+display:flex;
+flex-direction:column;
+}
+
+.topbar{
+height:70px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 20px;
+background:#2b0f4b;
+}
+
+.chat-area{
+flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+}
+
+.chat-area h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.chat-area p{
+opacity:.8;
+}
+
+.input-area{
+padding:20px;
+display:flex;
+gap:10px;
+background:#2b0f4b;
+}
+
+.input-area input{
+flex:1;
+padding:14px;
+border:none;
+border-radius:30px;
+font-size:16px;
+}
+
+.input-area button{
+padding:14px 22px;
+border:none;
+border-radius:30px;
+background:#8b5cf6;
+color:white;
+cursor:pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+🪷 Shri AI
+</div>
+
+<button class="newchat">
+➕ New Chat
+</button>
+
+<div class="history">
+
+<div class="chat-item">
+💬 Welcome
+</div>
+
+<div class="chat-item">
+📚 Study Help
+</div>
+
+<div class="chat-item">
+💻 Coding
+</div>
+
+</div>
+
+</div>
+
+<div class="main">
+
+<div class="topbar">
+
+<h3>🌸 Shri AI</h3>
+
+<div>
+⚙️ 👤
+</div>
+
+</div>
+
+<div class="chat-area">
+
+<h1>🙏 Namaste</h1>
+
+<p>I'm Shri, your Intelligent Indian AI Companion.</p>
+
+</div>
+
+<div class="input-area">
+
+<input type="text" placeholder="Message Shri...">
+
+<button>➤</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
